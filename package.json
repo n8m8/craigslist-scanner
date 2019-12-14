@@ -1,0 +1,15 @@
+{
+  "name": "cl-quipartments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-stringify": "^5.3.4",
+    "nodemailer": "^6.4.2"
+  }
+}
