@@ -1,7 +1,6 @@
 {
   "name": "cl-quipartments",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,18 @@
   "dependencies": {
     "csv-stringify": "^5.3.4",
     "nodemailer": "^6.4.2"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8m8/craigslist-scanner.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/n8m8/craigslist-scanner/issues"
+  },
+  "homepage": "https://github.com/n8m8/craigslist-scanner#readme",
+  "description": ""
 }
