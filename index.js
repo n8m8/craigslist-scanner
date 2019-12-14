@@ -39,6 +39,7 @@ var getListings = function() {
   var formattedDate = month + "/" + jsdate.getDate() + "/" + jsdate.getFullYear() + " " + jsdate.getHours() + ":" + jsdate.getMinutes();
 
   console.log("Running getListings at " + formattedDate + ".");
+  console.log("Only adding this so google might push a build, testing ci/cd");
 
   // TODO add more search options e.g. cost
   //https://pittsburgh.craigslist.org/search/apa?postedToday=1&max_price=2000&min_bedrooms=2&availabilityMode=0&sale_date=all+dates
