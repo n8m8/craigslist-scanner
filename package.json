@@ -1,5 +1,5 @@
 {
-  "name": "cl-quipartments",
+  "name": "craigslist-scanner",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,13 @@
   "license": "ISC",
   "dependencies": {
     "csv-stringify": "^5.3.4",
-    "nodemailer": "^6.4.2"
+    "nodemailer": "^6.4.2",
+    "node-craigslist": "2.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.7.2",
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
   },
   "repository": {
     "type": "git",
